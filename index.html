@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <h1 id="titleFont">Network</h1>
+
+    </div>
+    <div>
+        <h1 class="feed-header">Your Feed</h1>
+    </div>
+    <div class="main-page">
+
+        <div class="left-box">
+            <div class="Avatar">
+                <img src="images/user.png" alt="avatar-picture">
+                <h3><a href="#">Add an avatar</a></h3>
+                <h2 class="james-spacing">James Doe</h2>
+            </div>
+        </div>
+        <div class="right-box">
+            <div class="your-feed">
+                <div class="top-column">
+                    <h3 class="username-header">Neil M</h3>
+                    
+                    <p class="likes-spacing" id="count">9 like(s)</p>
+                    <button class="like-btn" onclick="add1()">Like</button>
+
+
+
+                </div>
+                <p class="bottom-column">I just set up this new discord bot, let meknow what you all think.<a href="#">link</a></p>
+            </div>
+            <div class="your-feed">
+                <div class="top-column">
+                    <h3 class="username-header">Nichole K</h3>
+                    <p class="likes-spacing" id="countMiddle">12 like(s)</p>
+                    <button class="like-btn" onclick="addMiddle()">Like</button>
+                </div>
+                <p class="bottom-column">Just finished my <a href="#"> next comic</a>, check it out</p>
+            </div>
+            <div class="your-feed">
+                <div class="top-column">
+                    <h3 class="username-header">Jim R</h3>
+                    <p class="likes-spacing" id="countThird">9 like(s)</p>
+                    <button class="like-btn" onclick="addThird()">Like</button>
+                </div>
+                <p class="bottom-column">I cant stop listening to the <a href="#">new album.</a> Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+    <script src="Likes.js"></script>
+</body>
+
+</html>

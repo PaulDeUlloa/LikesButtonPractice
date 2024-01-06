@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-page {
+    font-family:cursive;
+    display: flex;
+}
+
+.nav-bar{
+    background-color: rgb(0,0,0);
+    display: flex;
+    width: 70%;
+    height: 70px;
+    color: white;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 30px;
+    font-family:cursive;
+}
+
+.feed-header{
+    display: flex;
+    flex-direction:column;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 80px;
+    font-size: xx-large;
+    font-family:cursive;
+}
+
+.your-feed{
+    border: black 3px solid;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-left: 40px;
+}
+.like-btn{
+    background-color: rgb(102, 255, 166);   
+    font-weight: bolder;
+    font-size: large;
+    width: 80px;
+    height: 50px;
+    box-shadow: 3px 3px 1px 1px rgb(0, 0, 0);
+    border: black 3px solid;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 700px;
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    border: rgb(0, 0, 0) 3px solid;
+    width: 300px;
+    height: 350px;
+    margin-left: 290px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.james-spacing{
+    margin-top: 50px;
+}
+
+.username-header{
+    width: 130px;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.top-column{
+    display: flex;
+}
+
+.bottom-column{
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+
+.likes-spacing{
+    padding-left: 280px;
+    margin-top: 20px;
+}
